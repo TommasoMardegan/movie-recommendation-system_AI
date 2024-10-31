@@ -27,4 +27,4 @@ def get_content_recommendations(title, cosine_sim=cosine_sim):
     return movies['title'].iloc[movie_indices]
 
 # Test
-print("Film simili a 'Toy Story':\n", get_content_recommendations('Toy Story'))
+print("Film simili a 'Toy Story':\n", get_content_recommendations('Toy Story (1995)'))
